@@ -63,3 +63,20 @@ function showQuote(){
     let quotes=["Belive in yourself!", "Never give up!", "practice more learn more!","Stay positive!"];
     document.getElementById("output").innerText=quotes[Math.floor(Math.random()*quotes.length)];
 }
+// reverse the text of a paragraph when clicking a button
+function reverseText() {
+    let para = document.getElementById("reversePara");
+    para.innerText = para.innerText.split("").reverse().join("");
+}
+
+// change the font size of a paragraph when clicking a button
+function changeFontSize() {
+    let para = document.getElementById("fontPara");
+    para.style.fontSize = (para.style.fontSize === "20px") ? "14px" : "20px";
+}
+
+// make the text bold when clicking a button
+function makeBold() {
+    let para = document.getElementById("boldPara");
+    para.style.fontWeight = (para.style.fontWeight === "bold") ? "normal" : "bold";
+}
