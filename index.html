@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Bt_5_JS">
+    <meta name="description" content="Bt_5_JS">
+    <meta name="keywords" content="Bt_5_JS">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="3 days">
+    <meta name="author" content="alaminwebdev">
+    <title>Bt_5_JS</title>
+    <!--css links-->
+    <!-- font -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+
+
+  <section>
+    <div class="container">
+      <!-- show text -->
+      <h2>click the button to show the text</h2>
+      <button type="button" onclick="showText()" class="btn btn-info">show text</button>
+      <p id="st"></p>
+
+
+<!-- show date --><hr>
+
+<div class="card">
+  <h5 class="card-header">Click Events</h5>
+  <div class="card-body">
+    <h5 class="card-title">click</h5>
+    <p id="sd" class="card-text">click the button to show the text</p>
+    <button type="button" onclick="showDate()"class="btn btn-primary">Show Date</button>
+  </div>
+</div>
+
+
+
+<!-- text change -->
+      <h2>click the button to change the text</h2>
+      <button type="button" onmouseenter="changeText()" class="btn btn-success">Change text</button>
+      <p id="ct">Lorem ipsum dolor sit amet.</p>
+<hr>
+<!-- text color change -->
+      <h2>click the button to change the text color</h2>
+      <button type="button" onclick="changeColor()" class="btn btn-danger">Change Color</button>
+      <p id="cc">Lorem ipsum dolor sit amet.</p>
+<hr>
+<!-- bulb on/off -->
+
+      <h2>click the button on/off the bulb</h2>
+      <button type="button" onclick="bulbOn()"class="btn btn-primary">Bulb on</button>
+      <button type="button" onclick="bulbOff()"class="btn btn-warning">Bulb off</button>
+      <img id="img" src="image/off.gif" alt="#">
+
+<hr>
+
+<!-- DOM Events -->
+      <h1 class="text-center">HTML DOM Events</h1>
+      <h2 class="text-center">The contextmenu Event</h2>
+      
+      <div style="border:1px solid black;text-align:center">
+      <p class="text-center">Right-click in this box!</p>
+      <p class="text-center">Context menu will show.</p>
+      </div>
+      <br>
+      <div id="myDiv">
+      <p class="text-center">Right-click in this box!</p>
+      <p class="text-center">Context menu is disabled.</p> 
+
+      
+</div>
+</section>
+<!-- buttons for each exercise -->
+<section>
+      <div>
+            <h2>click the button to Show Name</h2>
+            <button type="button" onclick="showName()" class="btn btn-primary" >Show Name</button>
+<hr>            
+            <h2>click the button to Show Random Number</h2>
+            <button type="button" onclick="showRandomNumber()" class="btn btn-primary" >Show Random Number</button>
+<hr>            
+            <h2>click the button to change the background color</h2>
+            <button type="button" onclick="changeBgColor()" class="btn btn-primary" >Change Background Color</button>
+<hr>           
+            <h2>click the button Sum Two Numbers</h2>
+            <button type="button" onclick="sumNumbers()" class="btn btn-primary" >Sum Two Numbers</button>
+<hr>
+            <h2>click the button Multiply Two Numbers</h2>
+            <button type="button" onclick="multiplyNumbers()" class="btn btn-primary" >Multiply Two Numbers</button>
+<hr>
+            <h2>click the button Swap Two Numbers</h2>
+            <button type="button" onclick="swapNumbers()" class="btn btn-primary" >Swap Two Numbers</button>
+<hr>            
+            <h2>click the button Show Quote</h2>
+            <button type="button" onclick="showQuote()" class="btn btn-primary" >Show Quote</button>
+            <p id="output"></p>
+      </div>
+</section>
+
+
+<!--js links-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
